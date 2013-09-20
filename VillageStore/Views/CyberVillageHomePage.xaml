@@ -39,7 +39,7 @@
         </Grid>
         <ScrollViewer Grid.Row="1" VerticalScrollMode="Disabled" HorizontalScrollMode="Auto" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto">
 
-            <Grid Height="628" Width="5000">
+            <Grid Height="628" Width="2000">
 
                 <Grid Height="628" Width="3000" HorizontalAlignment="Left" VerticalAlignment="Top">
                     <Grid.ColumnDefinitions>
@@ -165,7 +165,7 @@
                         </Grid.ColumnDefinitions>
                         <TextBlock Text="❺ Crime" Margin="20,10" Style="{StaticResource GroupHeaderTextStyle}"/>
 
-                        <TextBlock Text="&#x262d;" Margin="20,10" FontSize="150" FontWeight="Bold" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock Text="&#x2689;" Margin="20,10" FontSize="150" FontWeight="Bold" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
 
                         <Grid Margin="20,0,0,0" Grid.Row="1" Grid.Column="1">
                             <Grid.RowDefinitions>
