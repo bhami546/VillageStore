@@ -101,6 +101,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Folder Include="ReferenceLib\" />
     <Folder Include="Resources\" />
     <Folder Include="Utils\" />
   </ItemGroup>
@@ -135,11 +136,14 @@
     <Compile Include="Views\CitizenDetails.xaml.cs">
       <DependentUpon>CitizenDetails.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
+    <Compile Include="Views\CyberVillageHomePage.xaml.cs">
+      <DependentUpon>CyberVillageHomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SearchCitizen.xaml.cs">
       <DependentUpon>SearchCitizen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VACHomePage.xaml.cs">
+      <DependentUpon>VACHomePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -194,20 +198,24 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\HomePage.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\CyberVillageHomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\SearchCitizen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VACHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.VCLibs, version=11.0">
       <Name>Microsoft Visual C++ Runtime Package</Name>
     </SDKReference>
-    <SDKReference Include="SQLite.WinRT, Version=3.7.17">
+    <SDKReference Include="SQLite.WinRT, Version=3.8.0.2">
       <Name>SQLite for Windows Runtime</Name>
     </SDKReference>
     <SDKReference Include="Syncfusion controls for WinRT XAML, Version=11.2.0.64">

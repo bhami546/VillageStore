@@ -19,9 +19,9 @@ namespace VillageStore.Views
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class HomePage : VillageStore.Common.LayoutAwarePage
+    public sealed partial class VACHomePage : VillageStore.Common.LayoutAwarePage
     {
-        public HomePage()
+        public VACHomePage()
         {
             this.InitializeComponent();
         }

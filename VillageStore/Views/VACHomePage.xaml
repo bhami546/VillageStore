@@ -1,7 +1,7 @@
 ﻿<common:LayoutAwarePage 
     xmlns:UserControls="using:VillageStore.UserControls" 
     x:Name="pageRoot"
-    x:Class="VillageStore.Views.HomePage"
+    x:Class="VillageStore.Views.VACHomePage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -14,7 +14,7 @@
     <Page.Resources>
 
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">Cyber Village</x:String>
+        <x:String x:Key="AppName">VAC</x:String>
     </Page.Resources>
 
     <!--
@@ -53,12 +53,12 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-            <UserControls:VillageTile TileImage="../Images/citizenmaster.png" TileTitleText="&#xE203;" TileText="Citizen Details" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="0" Tapped="UIElement_OnTapped"/>
-            <UserControls:VillageTile TileImage="../Images/mobile.png" TileTitleText="&#x2603;" TileText="App Status" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="2"/>
-            <UserControls:VillageTile TileImage="../Images/Scheme.png" TileTitleText="&#x26C8;" TileText="Schemes" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="4"/>
-            <UserControls:VillageTile TileImage="../Images/NOC.png" TileTitleText="&#x26DF;" TileText="NOC Certificates" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="0"/>
-            <UserControls:VillageTile TileImage="../Images/house.png" TileTitleText="&#x270C;" TileText="HouseHolds" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="2"/>
-            <UserControls:VillageTile TileImage="../Images/reports.png" TileTitleText="&#x058E;" TileText="Reports" TileBackground="#86BA35" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="4"/>
+            <UserControls:VillageTile TileImage="../Images/citizenmaster.png" TileTitleText="&#xE203;" TileText="Citizen Details" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="0" Tapped="UIElement_OnTapped"/>
+            <UserControls:VillageTile TileImage="../Images/mobile.png" TileTitleText="&#x2603;" TileText="App Status" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="2"/>
+            <UserControls:VillageTile TileImage="../Images/Scheme.png" TileTitleText="&#x26C8;" TileText="Schemes" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="4"/>
+            <UserControls:VillageTile TileImage="../Images/NOC.png" TileTitleText="&#x26DF;" TileText="NOC Certificates" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="0"/>
+            <UserControls:VillageTile TileImage="../Images/house.png" TileTitleText="&#x270C;" TileText="HouseHolds" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="0" Grid.Column="2"/>
+            <UserControls:VillageTile TileImage="../Images/reports.png" TileTitleText="&#x058E;" TileText="Reports" TileBackground="#5436D8" TileWidth="300" TileHeight="200" Grid.Row="2" Grid.Column="4"/>
             
         </Grid>
 
